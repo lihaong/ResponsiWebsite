@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700&display=swap");
+:root {
+  --blue: rgb(40, 79, 143);
+  --light-blue: rgb(103, 143, 207);
+  --white: #fffdfa;
+  --black: #171717;
+  --font-karla: "Karla", sans-serif;
+}
+body {
+  font-family: var(--font-karla);
+}
+.login-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.form-wrapper {
+  width: 350px;
+  margin: 100px auto;
+}
+
+.bg-form {
+  width: 100%;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.field-group {
+  border: 0;
+  padding: 0.35em 0 0.625em 0;
+  text-align: left;
+  position: relative;
+}
+.label {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.input {
+  padding: 0.5em 0 0.5em 1em;
+  width: 100%;
+  border: 1px solid #e5e7ec;
+  border-radius: 5px;
+  outline: 0;
+  box-sizing: border-box;
+}
+.btn-submit {
+  background-color: var(--blue);
+  color: #fff;
+  padding: 0.7em;
+  border-radius: 3px;
+  outline: 0;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: ease-out 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: var(--light-blue);
+}
